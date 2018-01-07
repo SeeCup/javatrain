@@ -78,7 +78,7 @@ public class SearcherHighLight {
 	
 	public static void main(String[] args) {
 		String indexDir = getFilePath("\\src\\main\\resources\\index2");
-		String q="南京文明";//南京（1个）  南京文化（1个） 南京城市（都有）南京文化
+		String q="南京文明";//南京（1个）  南京文化（1个） 南京城市（都有）南京文化 测试
 		try {
 			search(indexDir,q);
 		} catch (Exception e) {
